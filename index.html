@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>作业</title>
+		<style type="text/css">
+		*{
+			padding:0px;
+			margin:0px;
+		}
+		a{
+			text-decoration:none;
+			color:black;
+		}
+		ul,ol,li{
+			list-style:none;
+		}
+		.header-wrap{
+			width:100%;
+			height:30px;
+			background-color:#f4f4f4;
+		}
+		.header{
+			width:1200px;
+			height:30px;
+			margin:0 auto;
+		}
+		.left{
+			float:left;
+			color:#000;
+			font-size:12px;
+			height:30px;
+			line-height:30px;
+		}
+		.right{
+			float:right;
+			color:#000;
+			font-size:12px;
+			height:30px;
+			line-height:30px;
+		}
+		.next-wrap{
+			width:100%;
+			height:160px;
+			background-color:#ffffff;
+			border-bottom:3px solid #e00304;
+		}
+		.next{
+			width:1200px;
+			height:160px;
+			margin:0 auto;
+		}
+
+		.next img{
+			float:left;
+			margin-top:15px;
+		}
+		.sou{
+			width:505px;
+			height:60px;
+		}
+		.sou>span>input{
+			border:2px solid #f83838;
+			width:400px;
+			height:40px;
+			color:#c0c0c0;
+			text-indent: 2em;
+			position: relative;
+			right:-390px;
+			top: -50px;
+		}
+		.sou>input{
+			background-color:#f83838;
+			width:90px;
+			height:43px;
+			border:3px solid #f83838;
+			position: relative;
+			top: -50px;
+			right: -380px;
+			color:#fff;
+		}
+		.gouwu{
+			width:148px;
+			height:40px;
+			background-color: #f5f5f5;
+			border:1px solid #e3e3e3;
+			float:right;
+			position: relative;
+			top: -5px;
+		}
+		.gouwu img{
+			position: relative;
+			right:-30px;
+			margin-top: 10px;
+		}
+		.gouwu p{
+			position: relative;
+			right:-40px;
+
+		}
+		.gouwu>p>span{
+			color: #f14646;
+			line-height: 40px;
+		}
+		.nav{
+			position: relative;
+			right:180px;
+			top:60px;
+		}
+		.nav>ul>a>li{
+			display: inline-block;
+			width:90px;
+			height:37px;
+			border-radius: 6px;
+			text-align: center;
+			line-height:37px;
+		}
+		.nav>ul>a>li:hover{
+			background-color: #fd0304;
+			color: #fff;
+		}
+		.middle-wrap{
+			width:100%;
+			height:652px;
+			background-color: #fbfbfb;
+			margin-bottom: 10px;
+		}
+		.middle{
+			width:1200px;
+			height:652px;
+			background-color: #fbfbfb;
+			margin: 0px auto;
+		}
+		.middle>p{
+			height: 66px;
+			line-height: 66px;
+		}
+		.mulu1{
+			width:215px;
+			height:43px;
+			background-color: #fff;
+			float: left;
+			display: inline-block;
+			line-height: 43px;
+		}
+		.mulu1 img{
+			margin-left: 30px;
+			margin-right: 22px;
+		}
+		.mulu1 p{
+			display: inline-block;
+		}
+		.mulu2{
+			width:215px;
+			height:510px;
+			background-color: #fff;
+			display: inline-block;
+			position: relative;
+			top: -512px;
+		}
+		.mulu2>p{
+			margin-left: 30px;
+			margin-top: 16px;
+		}
+		.mulu2>p>span{
+			color:#ff2c18;
+		}
+		.neirong{
+			width:975px;
+			height:565px;
+			background-color: #fff;
+			display: inline-block;
+			position: relative;
+			left: 12px;
+			float: left;
+		}
+		.s1{
+			display: inline-block;
+			width:222px;
+			height:252px;
+			border:1px solid #dbdbdb;
+			margin-left:17px;
+			float: left;
+			text-align: center;
+		}
+		.s1 img{
+			margin-top: 26px;
+		}
+		.s1>p{
+			font-size: 15px;
+			margin-top: 16px;
+		}
+		.s1>p>span{
+			color:#afafaf;
+			font-size: 16px;
+			margin-bottom: 10px
+		}
+		.footer-wrap{
+			width:100%;
+			height:248px;
+			background-color: #2e2e2e;
+		}
+		.footer{
+			margin: 0px auto;
+			width:1200px;
+			height:248px;
+		}
+		.qian{
+			width: 100px;
+			height:113px;
+			margin-top: 20px;
+			margin-bottom: 17px;
+			margin-left: 8px;
+			margin-right: 165px;
+			float: left;
+			color: #fff;
+		}
+		.hou{
+			width: 100px;
+			height: 113px;
+			color: #fff;
+			float: right;
+			margin-top: 20px;
+			margin-bottom: 17px;
+		}
+		.qian>li{
+			font-size: 14px;
+			margin-bottom: 14px;
+		}
+		.qian>li>span{
+			font-size: 16px;
+			margin-bottom: 23px;
+		}
+		.hou>li{
+			font-size: 14px;
+			margin-bottom: 14px;
+		}
+		.hou>li>span{
+			font-size: 16px;
+			margin-bottom: 23px;
+		}
+		.last{
+			width:1200px;
+			height:97px;
+			border-top:1px solid #454545;
+			color:#9c9c9c;
+			font-size: 14px;
+			margin:0px auto;
+			float: left;
+		}
+		.last p{
+			text-align: center;
+			margin-top: 21px;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="header-wrap">
+			<div class="header">
+				<p class="left">
+					我的收藏
+					E族之家手机版
+					<span>
+						<img src="image/qq.png" alt="qq"/>
+						328203328
+					</span>
+				</p>
+				<p class="right">
+					扫面加入
+					欢迎来到E族之家，<a href="#">请登录|注册</a>
+				</p>
+			</div>
+		</div>
+		<div class="next-wrap">
+			<div class="next">
+				<img src="image/e logo.png" alt="e"/>
+				<div class="sou">
+					<span><input type="text" name="关键词" value="请输入关键词！" /></span>
+					<input type="submit" name="搜索" value="搜索" />
+				</div>
+				<div class="gouwu">
+					<img src="image/gou.png" alt="gouwu"/>
+					<p>购物车(<span>0</span>)</p>
+				</div>
+				<div class="nav">
+					<ul>
+						<a href="#"><li>首页</li></a>
+						<a href="#"><li>E族生活</li></a>
+						<a href="#"><li>E族服务</li></a>
+						<a href="#"><li>E族爱心</li></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="middle-wrap">
+			<div class="middle">
+				<p>当前位置：E族爱心>食品</p>
+				<div class="mulu1">
+					<img src="image/biao.png" alt="biao"/>
+					<p>全部分类</p>
+				</div>
+				<div class="neirong">
+					<div class="s1">
+						<img src="image/la.png" alt="la"/>
+						<p>
+						<span>精品辣椒100g</span><br/>
+						¥ 90.00
+						</p>						
+					</div>
+					<div class="s1">
+						<img src="image/bai.png" alt="bai"/>
+						<p>
+						<span>特级百香果3斤</span><br/>
+						¥ 90.00
+						</p>
+					</div>
+					<div class="s1">
+						<img src="image/wine.png" alt="jiu"/>
+						<p>
+						<span>万威啤酒500ml</span><br/>
+						¥ 90.00
+						</p>
+					</div>
+					<div class="s1">
+						<img src="image/song.png" alt="zi"/>
+						<p>
+						<span>万威啤酒500ml</span><br/>
+						¥ 90.00
+						</p>
+					</div>
+					<div class="s1">
+						<img src="image/la.png" alt="la"/>
+						<p>
+						<span>精品辣椒100g</span><br/>
+						¥ 90.00
+						</p>
+					</div>
+					<div class="s1">
+						<img src="image/bai.png" alt="bai"/>
+						<p>
+						<span>特级百香果3斤</span><br/>
+						¥ 90.00
+						</p>
+					</div>
+					<div class="s1">
+						<img src="image/wine.png" alt="jiu"/>
+			 			<p>
+						<span>万威啤酒500ml</span><br/>
+						¥ 90.00
+						</p>
+					</div>
+					<div class="s1">
+						<img src="image/song.png" alt="zi"/>
+						<p>
+						<span>万威啤酒500ml</span><br/>
+						¥ 90.00
+						</p>
+					</div>
+				</div>
+				<div class="mulu2">
+					<p><span>> 食品</span></p><br/>
+					<p>> 生活用品</p>
+				</div>
+				
+			</div>
+		</div>
+		<div class="footer-wrap">
+			<div class="footer">
+				<ul class="qian">
+					<li><span>新手上路</span></li>
+					<li>售后流程</li>
+					<li>购物流程</li>
+					<li>订购方式</li>
+				</ul>
+				<ul class="qian">
+					<li><span>配送方式</span></li>
+					<li>货到付款区域</li>
+					<li>配送支付查询</li>
+					<li>支付方式说明</li>
+				</ul>
+				<ul class="qian">
+					<li><span>购物指南</span></li>
+					<li>常见问题</li>
+					<li>订购流程</li>
+					<li>注册新会员</li>
+				</ul>
+				<ul class="qian">
+					<li><span>售后服务</span></li>
+					<li>退换货原则</li>
+					<li>售后服务保证</li>
+					<li>换货流程</li>
+				</ul>
+				<ul class="hou">
+					<li><span>关于我们</span></li>
+					<li>网站故障报告</li>
+					<li>联系我们</li>
+					<li>投诉与建议</li>
+				</ul>
+				<div class="last">
+					<p>
+						E族生活  |  居家维修保养  |  住宿优惠信息  |  出行接送  |  E族活动  |  E族爱心  |  积分商城 <br/>
+						<br/>
+						© 2017-2018  E族之家  版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
